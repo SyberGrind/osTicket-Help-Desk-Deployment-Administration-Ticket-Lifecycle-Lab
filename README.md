@@ -239,150 +239,223 @@ The following steps outline the complete lifecycle of the lab, from infrastructu
 * <img width="1366" height="768" alt="Step 73  Successful extraction osTicket v1 15 8 files" src="https://github.com/user-attachments/assets/b417f743-00b4-45ad-92e7-b49bc8f0e22a" />
 
 * **Step 74:** Accessing the upload directory in the osTicket source files.
-* 
+* <img width="1366" height="768" alt="Step 74  Successful launch of osTicket v1 15 8 folder to copy upload file" src="https://github.com/user-attachments/assets/fef89e61-45cd-416f-ac57-e9c477919cb7" />
+
 * **Step 75:** Copying the contents of the upload folder.
-* 
+* <img width="1366" height="768" alt="Step 75  Copying upload file" src="https://github.com/user-attachments/assets/7fd57588-0ebe-4a2b-9d08-52521d0af4a6" />
+
 * **Step 76:** Deploying application files to `C:\inetpub\wwwroot\`.
-* 
+* <img width="1366" height="768" alt="Step 76  Paste of upload file to wwwroot folder Within C Drive" src="https://github.com/user-attachments/assets/e8c5ae33-0ff0-42fb-8fd2-a0437a4a15c1" />
+
 * **Step 77:** Renaming the directory to "osTicket" for easier web access.
-* 
+* <img width="1366" height="768" alt="Step 77  Renaming upload file to osTicket in wwwroot within Windows C drive" src="https://github.com/user-attachments/assets/b1dfe4de-d67f-4f94-abee-cc6fd73f060b" />
+
 * **Step 78:** Restarting IIS to register the new application.
-* 
+* <img width="1366" height="768" alt="Step 78  Launch of IIS to restart it to update settings" src="https://github.com/user-attachments/assets/b84a4e76-a4f7-4935-a3fe-1cf62be7b340" />
+
 * **Step 79:** IIS services successfully restarted.
-* 
+* <img width="1366" height="768" alt="Step 79  Successful Restart of ISS" src="https://github.com/user-attachments/assets/1cb6eb6c-b843-4d98-9651-978ea3d76890" />
+
 * **Step 80:** Verifying the Application Pool settings for the site.
-* 
+* <img width="1366" height="768" alt="Step 80  Navigating to Application Pools in IIS" src="https://github.com/user-attachments/assets/33162206-7a56-4585-91d5-15305711fa4d" />
+
 * **Step 81:** Reviewing site bindings in IIS.
-* 
+* <img width="1366" height="768" alt="Step 81  Navigating to Sites in IIS" src="https://github.com/user-attachments/assets/f7e05e15-961b-425f-b1b9-51db44735e4e" />
+
 * **Step 82:** Launching the default web site to initiate the osTicket web-based installer.
-* 
+* <img width="1366" height="768" alt="Step 82  Navigating to Default Web Site to launch SEMI installed osTicket" src="https://github.com/user-attachments/assets/8227b9b1-c20b-4c83-933b-d77837e37e71" />
+
 * **Step 83:** osTicket installer landing page displayed.
-* 
+* <img width="1366" height="768" alt="Step 83  Successful launch of SEMI installed osTicket" src="https://github.com/user-attachments/assets/4efb0e0e-13d7-4f41-bfe1-05c4c04418d3" />
+
 * **Step 84:** Navigating to the osTicket directory in IIS to manage PHP extensions.
-* 
+* <img width="1366" height="768" alt="Step 84  Navigating to osTicket folder within ISS for authetication in PHP Manager" src="https://github.com/user-attachments/assets/662a00b2-f1a2-4180-a046-879cdb490f68" />
+
 * **Step 85:** Launching Authentication management.
-* 
+* <img width="1366" height="768" alt="Step 85  Prompt to launch Authetication in PHP manager" src="https://github.com/user-attachments/assets/2837d722-56c4-4d64-a2a3-487ed43d14fe" />
+
 * **Step 86:** Accessing PHP extension management.
-* 
+* <img width="1366" height="768" alt="Step 86   Successful launch of Authetication in PHP manager to start process of to enable some PHP extentions" src="https://github.com/user-attachments/assets/a10156ed-1a9b-4728-96e9-41198c4661f7" />
+
 * **Step 87:** Viewing available PHP extensions.
-* 
+* <img width="1366" height="768" alt="Step 87  Prompt to launch of PHP Extention to enable PHP extentions" src="https://github.com/user-attachments/assets/7bf3474f-40b2-4274-8104-4dc059d4e69d" />
+
 * **Step 88:** Initiating configuration of required extensions.
-* 
+* <img width="1366" height="768" alt="Step 88  Launch of PHP Extention to enable PHP extentions" src="https://github.com/user-attachments/assets/8100f860-26bf-4076-95e0-278966791abc" />
+
 * **Step 89:** Enabling the `php_intl.dll` extension.
-* 
+* <img width="1366" height="768" alt="Step 89  Enabling PHP dil withing PHP Extentions" src="https://github.com/user-attachments/assets/bb2f3c11-0540-4e21-a578-2aaeca7a7aa2" />
+
 * **Step 90:** Enabling the `php_opcache.dll` extension.
-* 
+* <img width="1366" height="768" alt="Step 90  Enabling php opcache dill within PHP Extentions" src="https://github.com/user-attachments/assets/6ac71d2f-2c27-4d8d-bedb-8413ed6631b5" />
+
 * **Step 91:** Refreshing the osTicket installation page.
-* 
+* <img width="1366" height="768" alt="Step 91  Navigated back SEM installed osTicket" src="https://github.com/user-attachments/assets/1c27f8c3-544f-467e-8790-c5015932e775" />
+
 * **Step 92:** Modifying file permissions for `ost-sampleconfig.php` to allow renaming/writing.
-* 
+* <img width="1366" height="768" alt="Step 92  Navigation to ost sampleconfig php to alter its properties in the osTicket Folder within Windows C drive" src="https://github.com/user-attachments/assets/26e30bff-0cdb-4e19-a89d-e69d566d5a4f" />
+
 * **Step 93:** Updating security properties to grant "Everyone" modify access.
-* 
+* <img width="1366" height="768" alt="Step 93  ost sampleconfig php security properties altered to everyone" src="https://github.com/user-attachments/assets/a2eeebba-5274-40a3-a1ad-040332d681a2" />
+
 * **Step 94:** Configuring primary osTicket installation settings (Page 1).
-* 
+* <img width="1366" height="768" alt="Step 94  1st Blank Credentials page of osTicket to complete intallation" src="https://github.com/user-attachments/assets/8cfdc618-744d-40b5-8452-12f32b0569ea" />
+
 * **Step 95:** Configuring database and admin account credentials (Page 2).
-* 
+* <img width="1366" height="768" alt="Step 95  2nd Blank Credentials page of osTicket to complete intallation" src="https://github.com/user-attachments/assets/4f8bd677-8a73-4f42-8ca4-19e8ccc765b0" />
+
 * **Step 96:** Verifying final installation configurations (Page 3).
-* 
+* <img width="1366" height="768" alt="Step 96  3rd Blank Credentials page of osTicket to complete intallation" src="https://github.com/user-attachments/assets/2f05896e-b6c8-4eb4-8054-c9a7644d3a4a" />
+
 * **Step 97:** Reviewing compiled configuration credentials.
-* 
+* <img width="1047" height="1600" alt="Step 97  Credentials sheet for osTicket installation" src="https://github.com/user-attachments/assets/24d0e66a-adbe-4853-b5a5-16e583112035" />
+
 * **Step 98:** Inputting system and email settings.
-* 
+* <img width="1366" height="768" alt="Step 98  Defining credentials for 1st page to intall osTicket" src="https://github.com/user-attachments/assets/87190d88-6566-4e1e-a76b-038bc31dbbfe" />
+
 * **Step 99:** Inputting database host, name, and user credentials.
-* 
+* <img width="1366" height="768" alt="Step 99  Defining credentials for 2nd page to intall osTicket" src="https://github.com/user-attachments/assets/2ba40533-5624-4edd-9c5b-4e046c769a63" />
+
 * **Step 100:** Confirming admin account details.
-* 
+* <img width="1366" height="768" alt="Step 100  Defining credentials for 3rd page to intall osTicket" src="https://github.com/user-attachments/assets/0bc7bff9-4bf3-42fe-bdbb-f7f15b8d749f" />
+
 * **Step 101:** osTicket installation completed successfully.
-* 
+* <img width="1366" height="768" alt="Step 101  Successful complete installation of osTicket" src="https://github.com/user-attachments/assets/b0fb2c7d-1617-4705-a7a8-ade41677a482" />
+
 * **Step 102:** Inputting administrative credentials to access the portal.
-* 
+* <img width="1366" height="768" alt="Step 102  Adding credentials to log in osTicket application" src="https://github.com/user-attachments/assets/94457eb4-a17c-4dfa-9fb9-7e90b889bff4" />
+
 * **Step 103:** Successful login to the osTicket Admin Panel.
+<img width="1366" height="768" alt="Step 103  Successful login to osTicket" src="https://github.com/user-attachments/assets/98ecbead-6c70-4443-9f8d-dae61183cff0" />
 
 ### Phase 5. User Management & Testing
 
 * **Step 104:** Navigating to the Admin Panel to manage Roles.
-* 
+* <img width="1366" height="768" alt="Step 104  Navigated to admin panel to start process of adding a role" src="https://github.com/user-attachments/assets/d8766949-adcd-47bc-acaf-ea6a7006c332" />
+
 * **Step 105:** Accessing the Role management portal.
-* 
+* <img width="1366" height="768" alt="Step 105  Navigated to role portal to view existing roles and to add new role" src="https://github.com/user-attachments/assets/ebe412d5-d0c0-4711-b47e-fc3c5aa4dfd6" />
+
 * **Step 106:** Creating a new custom role: "Supreme Admin".
-* 
+* <img width="1366" height="768" alt="Step 106  Naming name role Supreme Admin" src="https://github.com/user-attachments/assets/4dc965ef-99b5-4911-a3f7-07ac617fe5e5" />
+
 * **Step 107:** Configuring ticket permissions for "Supreme Admin".
-* 
+* <img width="1366" height="768" alt="Step 107  Viewing current permissions for tickets of Supreme Admin Role" src="https://github.com/user-attachments/assets/3fda39a9-d059-4bf0-aea0-f77157ca956d" />
+
 * **Step 108:** Defining granular access levels for ticket management.
-* 
+* <img width="1366" height="768" alt="Step 109  Viewing  permissions for tasks of Supreme Admin Role" src="https://github.com/user-attachments/assets/0a0c2c65-9d96-4506-a1f5-22cd00dee03a" />
+
 * **Step 109:** Configuring task management permissions.
-* 
+* <img width="1366" height="768" alt="Step 110  Viewing  permissions for knowledgebase of Supreme Admin Role" src="https://github.com/user-attachments/assets/d3dbc389-1c2b-4fc8-868d-e9ed65461a53" />
+
 * **Step 110:** Setting Knowledgebase access permissions.
-* 
+* <img width="1366" height="768" alt="Step 111  Supreme Role Added Successfully" src="https://github.com/user-attachments/assets/7d20f883-4d80-41a3-b465-8b9d5518595d" />
+
 * **Step 111:** "Supreme Admin" role successfully created.
-* 
+* <img width="1366" height="768" alt="Step 112  Adding a department in osTicket" src="https://github.com/user-attachments/assets/1f7da84a-979f-4fb6-84f1-057f89cc907c" />
+
 * **Step 112:** Navigating to Department management.
-* 
+* <img width="1366" height="768" alt="Step 112  Adding a department in osTicket" src="https://github.com/user-attachments/assets/a4401a34-cdf6-4451-9cf7-07b347f00efa" />
+
 * **Step 113:** Defining attributes for the new "SysAdmins" department.
-* 
+* <img width="1366" height="768" alt="Step 113  Define Credentials of new department" src="https://github.com/user-attachments/assets/756a13b5-7e44-4f89-b470-188c02511536" />
+
 * **Step 114:** "SysAdmins" department created successfully.
-* 
+* <img width="1366" height="768" alt="Step 114  SysAdmins Department Successfully Created" src="https://github.com/user-attachments/assets/da26ec14-cef9-4a20-b4de-0bd9ac9c8cac" />
+
 * **Step 115:** Accessing Team management.
-* 
+* <img width="1366" height="768" alt="Step 115  Creating a team on osTicket" src="https://github.com/user-attachments/assets/0de4dad8-ae85-41bc-a2c6-d348b29a49f8" />
+
 * **Step 116:** Defining new team credentials.
-* 
+* <img width="1366" height="768" alt="Step 116  Defining credentials of team being created" src="https://github.com/user-attachments/assets/6bc54c35-2737-4e9a-9dd6-3cf5912b1992" />
+
 * **Step 117:** "SysAdmins" team created successfully.
-* 
+* <img width="1366" height="768" alt="Step 117  SysAdmins Team Successfully created" src="https://github.com/user-attachments/assets/472d30d8-0429-4943-b792-9a4954e8835e" />
+
 * **Step 118:** Accessing the Agent Directory.
-* 
+* <img width="1366" height="768" alt="Step 118  Viewing existing agents" src="https://github.com/user-attachments/assets/ae9b1343-4865-48e6-ba40-0dacb774d22a" />
+
 * **Step 119:** Initiating the creation of a new agent: "Muneni Sigana".
-* 
+* <img width="1366" height="768" alt="Step 119  Adding new agent Muneni Sigana" src="https://github.com/user-attachments/assets/f189dfe5-9ae4-4f91-8eb5-c2edd8933ab6" />
+
 * **Step 120:** Assigning the "Supreme Admin" role and "SysAdmins" department to Muneni.
-* 
+* <img width="1366" height="768" alt="Step 120  Giving Muneni Supreme Admin Role   Adding them to the SysAdmin Department" src="https://github.com/user-attachments/assets/80d426ab-2bb5-4b6b-af14-4c3b62fd9181" />
+
 * **Step 121:** Granting full administrative permissions to Muneni.
-* 
+* <img width="1366" height="768" alt="Step 121  Giving Muneni all permissions" src="https://github.com/user-attachments/assets/92ab72a5-125e-4cf3-915b-98a74ea9e0dc" />
+
 * **Step 122:** Assigning Muneni to the "Online Sales" team.
-* 
+* <img width="1366" height="768" alt="Step 122  Adding Muneni to Online Sales Team" src="https://github.com/user-attachments/assets/e15010a0-6886-4152-b01d-cce132ac81a9" />
+
 * **Step 123:** Agent "Muneni Sigana" account successfully provisioned.
-* 
+* <img width="1366" height="768" alt="Step 123  Agent Muneni Sigana Successfully created" src="https://github.com/user-attachments/assets/e43dfaa0-33a9-44ff-a8fe-b3803c9ccb5e" />
+
 * **Step 124:** Reviewing the updated Agent Directory.
-* 
+* <img width="1366" height="768" alt="Step 124  Viewing list of agents" src="https://github.com/user-attachments/assets/50f49f99-1eb0-4b15-9226-6c3cfdc03061" />
+
 * **Step 125:** Initiating the creation of a new agent: "Tshidi Bosiu Thaba".
-* 
+* <img width="1366" height="768" alt="Step 125  Creating Agent Tshidi Bosiu Thaba" src="https://github.com/user-attachments/assets/f7ed6c20-52c0-4cd3-bbf1-84bceab4e68d" />
+
 * **Step 126:** Assigning "View Only" role and "Support" department to Tshidi.
-* 
+* <img width="1366" height="768" alt="Step 126  Giving Tshidi Bosiu Thaba View only role and adding them to the Support Department" src="https://github.com/user-attachments/assets/49f0a26f-7a33-48e6-8710-3153e17f7fc2" />
+
 * **Step 127:** Setting appropriate access permissions for Tshidi.
-* 
+* <img width="1366" height="768" alt="Step 127   Giving Tshidi Bosiu Thaba all permissions" src="https://github.com/user-attachments/assets/d2847b7c-4b83-41cf-99d1-f490fecaec44" />
+
 * **Step 128:** Agent "Tshidi Bosiu Thaba" account successfully provisioned.
-* 
+* <img width="1366" height="768" alt="Step 128  Agent Tshidi Bosiu Thaba Successfully created" src="https://github.com/user-attachments/assets/fa6298fc-992b-4d0d-9e59-6fb195e81972" />
+
 * **Step 129:** Verifying the full list of active agents.
-* 
+* <img width="1366" height="768" alt="Step 129  Viewing list of Agents" src="https://github.com/user-attachments/assets/265b811a-ed64-48aa-a3e0-28e222618317" />
+
 * **Step 130:** Accessing the User Directory to manage end-users.
-* 
+* <img width="1366" height="768" alt="Step 130  Navigated to User Directory to create users" src="https://github.com/user-attachments/assets/d8ac2348-2bb2-48fa-a68d-389e6dd799b7" />
+
 * **Step 131:** Configuring details for user "Andile Mngxitama".
-* 
+* <img width="1366" height="768" alt="Step 131  Defining details of user Andile Mngxitama" src="https://github.com/user-attachments/assets/98076f3a-78ac-4a1f-a33d-e914e3fbd7fd" />
+
 * **Step 132:** User "Andile Mngxitama" successfully registered.
-* 
+* <img width="1366" height="768" alt="Step 132  User Andile Mngxitama successfully created" src="https://github.com/user-attachments/assets/12fda3b0-4aad-4cd5-808d-e37766439fc4" />
+
 * **Step 133:** Configuring details for user "Mubuyiseni Ndlozi".
+<img width="1366" height="768" alt="Step 133  Defining details of user Mubuyiseni Ndlozi" src="https://github.com/user-attachments/assets/d89ab79d-5b66-4771-9ff3-67d5cdf907c3" />
 
 * **Step 134:** User "Mubuyiseni Ndlozi" successfully registered.
+<img width="1366" height="768" alt="Step 134  User Muyiseni Ndlozi successfully created" src="https://github.com/user-attachments/assets/2f51c01b-d556-479f-b9a7-3090c444f12d" />
 
 * **Step 135:** Verifying the user directory list.
-* 
+* <img width="1366" height="768" alt="Step 135  Viewing list of users I created" src="https://github.com/user-attachments/assets/e0740b7a-b4fc-4bae-b809-9b68941d206d" />
+
 * **Step 136:** Accessing the Service Level Agreement (SLA) management portal.
-* 
+* <img width="1366" height="768" alt="Step 136  Navigating to Service Level Agreement portal to Create SLAs" src="https://github.com/user-attachments/assets/7f4a4763-534b-4913-a6c8-a57ee0913c91" />
+
 * **Step 137:** SLA policy created successfully.
-* 
+* <img width="1366" height="768" alt="Step 137  SLA successfully created" src="https://github.com/user-attachments/assets/529cb921-9eda-45f8-97bb-bd163d48f898" />
+
 * **Step 138:** Navigating to the Support Centre to simulate a ticket submission.
-* 
+* <img width="1366" height="768" alt="Step 138  Navigating to Support Centre to lodge a ticket" src="https://github.com/user-attachments/assets/69c2bb40-e45c-4b58-88f3-e32f4baf1575" />
+
 * **Step 139:** Submitting a support ticket as "Andile Mngxitama".
-* 
+* <img width="1366" height="768" alt="Step 139  Lodging a ticket with user Andile Mngxitama" src="https://github.com/user-attachments/assets/c96f811f-8b8d-4618-88e6-41da1374281d" />
+
 * **Step 140:** Ticket successfully submitted to the queue.
-* 
+* <img width="1366" height="768" alt="Step 140  Ticket successfully lodged by user Andile Mngxitama" src="https://github.com/user-attachments/assets/dd70a5e2-2413-441e-9929-2c3d2ac58938" />
+
 * **Step 141:** Siyolo Kamisa receiving the new ticket notification.
-* 
+* <img width="1366" height="768" alt="Step 141  Siyolo Kamisa recieves notification user Andile Mngxitama has lodged a ticket" src="https://github.com/user-attachments/assets/4ead3474-ed6d-404b-b3d4-9644e4f52af2" />
+
 * **Step 142:** Siyolo Kamisa reviewing the ticket details submitted by Andile Mngxitama.
-* 
+* <img width="1366" height="768" alt="Step 142  Siyolo Kamisa opens ticket to see issue user Andile Mngxitama has" src="https://github.com/user-attachments/assets/ac843084-1a5f-4281-a935-3705ccf6a0eb" />
+
 * **Step 143:** Siyolo Kamisa escalating/assigning the ticket to agent "Tshidi Bosiu".
-* 
+* <img width="1366" height="768" alt="Step 143  Siyolo Kamisa assigns ticket to Tshidi Bosiu" src="https://github.com/user-attachments/assets/890e2b04-789a-4d9b-b5e1-9f4c10748f3a" />
+
 * **Step 144:** Ticket assignment successfully updated.
-* 
+* <img width="1366" height="768" alt="Step 144  Ticket successfully assigned to Tshidi Bosiu" src="https://github.com/user-attachments/assets/785286cf-bd22-4f8c-9a2b-36d13d23ee40" />
+
 * **Step 145:** Tshidi Bosiu authenticating to resolve the assigned ticket.
-* 
+* <img width="1366" height="768" alt="Step 145  Tshidi Bosiu logs in to resolve ticket" src="https://github.com/user-attachments/assets/22f2e9fc-3087-4b4c-ac64-110fc8d01094" />
+
 * **Step 146:** Tshidi Bosiu documenting the ticket resolution.
 """
+<img width="1366" height="768" alt="Step 146  Tshidi Bosiu notes down ticket" src="https://github.com/user-attachments/assets/cc8a44f8-45df-4df0-be80-4ac617674969" />
