@@ -754,13 +754,13 @@ In this phase, I deployed the osTicket application by extracting the installatio
 >
 <br>
 
-* **Step 101: osTicket install.**
+* **Step 101: Successfully Completed osTicket Installation.**
 <br>
 <img width="1366" height="768" alt="Step 101  Successful complete installation of osTicket" src="https://github.com/user-attachments/assets/b0fb2c7d-1617-4705-a7a8-ade41677a482" />
 >
 <br>
 
-* **Step 102: Inputting administrative credentials to access the portal.**
+* **Step 102: Entering Administrator Credentials to Log in to osTicket.**
 <br>
 <img width="1366" height="768" alt="Step 102  Adding credentials to log in osTicket application" src="https://github.com/user-attachments/assets/94457eb4-a17c-4dfa-9fb9-7e90b889bff4" />
 >
