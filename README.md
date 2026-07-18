@@ -1,7 +1,125 @@
-# osTicket-Lab
+<img width="588" height="330" alt="WhatsApp Image 2026-07-18 at 15 50 35 000" src="https://github.com/user-attachments/assets/d6498d6d-d046-4121-9f7c-dc6db7354b14" />
 
 
+# osTicket Help Desk Deployment, Administration & Ticket Lifecycle Lab.
 
+📌Project Overview
+
+This project demonstrates the complete deployment, configuration, and administration of the osTicket Help Desk System on a Microsoft Azure Windows 11 Pro Virtual Machine using Internet Information Services (IIS), PHP, and MySQL.The lab begins by provisioning cloud infrastructure in Azure before installing and configuring all prerequisites required by osTicket. After deploying the application, the environment is configured with custom administrative roles, departments, teams, agents, users, and Service Level Agreements (SLAs). The project concludes by simulating a real-world IT support workflow where an end user submits a support ticket, a help desk administrator assigns it to the appropriate technician, and the assigned agent begins the troubleshooting process.The repository documents the entire deployment from infrastructure creation to ticket management using 146 fully documented screenshots, providing a complete end-to-end demonstration of help desk administration.
+
+⸻
+
+📊 Project Summary
+
+| Category | Details |
+|----------|---------|
+| **Project** | Complete osTicket Help Desk Deployment, Administration & Ticket Lifecycle Lab |
+| **Cloud Platform** | Microsoft Azure |
+| **Operating System** | Windows 11 Pro Virtual Machine |
+| **Web Server** | Internet Information Services (IIS) |
+| **Help Desk Platform** | osTicket v1.15.8 |
+| **Database** | MySQL Server 5.5 |
+| **Programming Language** | PHP 7.3.8 |
+| **Supporting Components** | PHP Manager, CGI, URL Rewrite Module, Microsoft Visual C++ Redistributable |
+| **Administrative Tools** | IIS Manager, Windows Features, Remote Desktop (RDP), File Explorer, Microsoft Edge |
+| **Key Tasks Completed** | Azure infrastructure deployment, Windows VM provisioning, IIS configuration, PHP integration, MySQL installation, osTicket deployment, Administrator configuration, Role management, Department creation, Team creation, Agent administration, User management, SLA configuration, Ticket creation, Ticket assignment, Ticket lifecycle validation |
+| **Documentation** | 146 Step-by-Step Screenshots |
+| **Project Status** | ✅ Completed |
+
+⸻
+
+🏗️🏢 Lab Architecture
+
+```text
+                         Microsoft Azure
+                                │
+                  Resource Group: Tickets
+                                │
+                      Windows 11 Pro VM
+                                │
+                    Remote Desktop (RDP)
+                                │
+        ┌─────────────────────────────────────────┐
+        │ Internet Information Services (IIS)     │
+        └──────────────────┬──────────────────────┘
+                           │
+                  PHP Manager + CGI Module
+                           │
+                     PHP 7.3.8 Runtime
+                           │
+                    osTicket v1.15.8
+                           │
+                  MySQL Server 5.5 Database
+                           │
+      ┌───────────────────────────────────────────────┐
+      │           Help Desk Administration            │
+      ├───────────────────────────────────────────────┤
+      │ • Roles                                       │
+      │ • Departments                                │
+      │ • Teams                                      │
+      │ • Agents                                     │
+      │ • End Users                                  │
+      │ • Service Level Agreements (SLAs)            │
+      └──────────────────┬────────────────────────────┘
+                         │
+                  Ticket Submission
+                         │
+                  Ticket Assignment
+                         │
+                  Agent Investigation
+                         │
+                  Ticket Resolution
+```
+
+⸻
+
+🎯 Objectives
+
+* Deploy a Windows virtual machine in Microsoft Azure
+* Configure Internet Information Services (IIS) for hosting PHP applications
+* Install PHP and integrate it with IIS using PHP Manager
+* Install and configure MySQL Server
+* Deploy and configure the osTicket Help Desk application
+* Create administrative roles with appropriate permissions
+* Configure departments and teams
+* Create help desk agents with different permission levels
+* Register end users within the help desk system
+* Configure Service Level Agreements (SLAs)
+* Simulate a real-world support ticket lifecycle from submission to assignment
+* Demonstrate enterprise help desk administration practices
+
+⸻
+
+🛠️ Technologies Used
+
+* Microsoft Azure
+* Windows 11 Pro
+* Internet Information Services (IIS)
+* osTicket v1.15.8
+* PHP 7.3.8
+* MySQL Server 5.5
+* PHP Manager
+* CGI
+* URL Rewrite Module
+* Remote Desktop Protocol (RDP)
+
+⸻
+
+🧠 Skills Demonstrated
+
+* Microsoft Azure Administration
+* Windows Administration
+* IIS Web Server Configuration
+* PHP Configuration
+* MySQL Database Administration
+* osTicket Deployment
+* Help Desk Administration
+* Role-Based Access Control (RBAC)
+* User & Agent Management
+* Service Level Agreement (SLA) Configuration
+* Ticket Lifecycle Management
+* Remote Desktop Administration
+* IT Troubleshooting
 
 ⸻
 
@@ -918,3 +1036,13 @@ In this phase, I configured the osTicket environment by creating roles, departme
 <img width="1366" height="768" alt="Step 146  Tshidi Bosiu notes down ticket" src="https://github.com/user-attachments/assets/cc8a44f8-45df-4df0-be80-4ac617674969" />
 >
 <br>
+
+⸻
+
+🌍 Real World Relevance
+
+This project reflects the responsibilities commonly performed by IT Support Specialists, Help Desk Technicians, Desktop Support Engineers, and System Administrators working in enterprise environments.The skills demonstrated throughout this lab include deploying cloud infrastructure, configuring web servers, managing databases, administering user accounts, implementing role-based permissions, configuring Service Level Agreements, and managing the complete lifecycle of support tickets.These are practical tasks regularly performed in organizations that use help desk platforms such as osTicket, ServiceNow, Jira Service Management, Freshservice, or Zendesk, making this project directly applicable to real-world IT support operations.
+
+🏁Conclusion
+
+This lab successfully demonstrates the complete deployment and administration of an enterprise help desk environment using osTicket on Microsoft Azure. Starting with cloud infrastructure provisioning, the project progresses through web server configuration, PHP integration, database deployment, application installation, and administrative setup before validating the environment through a complete ticket management workflow.By documenting 146 individual implementation steps, this project showcases practical experience with cloud infrastructure, Windows administration, IIS, PHP, MySQL, and enterprise help desk operations. It highlights the technical and administrative skills required to deploy, manage, and support a modern ticketing system, providing a strong portfolio project for IT Support, Help Desk, Desktop Support, and Junior System Administrator roles.
