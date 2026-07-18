@@ -5,7 +5,8 @@
 
 ⸻
 
-### Phase 1. Azure Infrastructure & VM Setup
+## 🔹 Phase 1. Azure Infrastructure & VM Setup.
+In this phase, I created the Azure environment required for the lab by provisioning a Resource Group and deploying a Windows 11 Pro virtual machine. After the deployment completed, I established a Remote Desktop connection and confirmed the virtual machine was ready for the osTicket installation.
 
 ⸻
 >
@@ -120,7 +121,8 @@
 
 ⸻
 
-### Phase 2. Software Download & IIS Configuration
+## 🔹 Phase 2. Server Prerequisites, IIS, PHP, MySQL Environment & Web Server Configuration.
+In this phase, I downloaded and extracted the osTicket installation files, then configured Internet Information Services (IIS) by enabling the CGI feature. After completing the configuration, I verified that the IIS web server was functioning correctly by accessing the local web server through the loopback address.
 
 ⸻
 >
@@ -248,7 +250,8 @@
 
 ⸻
 
-### Phase 3. PHP & Database Setup.
+## 🔹 Phase 3. PHP & Database Setup.
+In this phase, I installed and configured the core software required by osTicket, including PHP, URL Rewrite, Microsoft Visual C++ Redistributable, and MySQL Server. I then integrated PHP with IIS using PHP Manager and restarted the web server to apply the new configuration.
 
 ⸻
 >
@@ -436,8 +439,8 @@
 
 ⸻
 
-### Phase 4. osTicket Deployment & Initial Configuration.
-
+## 🔹 Phase 4. osTicket Deployment & Initial Configuration.
+In this phase, I deployed the osTicket application by extracting the installation files, copying them to the IIS web directory, and configuring the required PHP extensions. I then completed the web-based installation wizard and successfully logged into the osTicket Administrator Control Panel.
 
 ⸻
 >
@@ -653,7 +656,8 @@
 
 ⸻
 
-### Phase 5. User Creation, Management & Ticket Resolution Testing
+## 🔹 Phase 5. User Creation, Management & Ticket Resolution Testing.
+In this phase, I configured the osTicket environment by creating roles, departments, teams, agents, users, and SLA policies. To validate the deployment, I submitted a support ticket, assigned it to an agent, and completed the ticket resolution workflow from submission to documented resolution.
 
 ⸻
 >
